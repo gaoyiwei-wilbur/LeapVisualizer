@@ -1,0 +1,1324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		960BDCE8976843AF819BF75E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A923AFB96C194726885BEBCF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				ADF2A42C3B834E83B74C2A62 /* CMake Rules */,
+				D88A2C941B7FA96000FD4D3C /* CopyFiles */,
+			);
+			dependencies = (
+				CF1EF8E7283C4F6C8AED15DC /* PBXTargetDependency */,
+				3A5901C2E4E8409382494F0E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		E437662A45714F27896E312C /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 907D39BB812E42FB87A9616B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1A1EAB2B4BAD4E29AA31AE2D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		D88A2CA31B7FB02100FD4D3C /* libLeap.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D88A2C8F1B7FA91F00FD4D3C /* libLeap.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		D8D693D11B80BDFB005ACF0E /* LeapVisualizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D80917051B80341D0068CB31 /* LeapVisualizer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0BB023BF35AD42D386735DF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8F3B1435904DC3965C66FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E437662A45714F27896E312C;
+			remoteInfo = ZERO_CHECK;
+		};
+		3896A8BA491242E3B51898D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8F3B1435904DC3965C66FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61D46A76DAC64E2F8FE9BA58;
+			remoteInfo = LeapVisualizer;
+		};
+		6C5FF60D7F3A4B159D2B91D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C8F3B1435904DC3965C66FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E437662A45714F27896E312C;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D88A2C941B7FA96000FD4D3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88A2CA21B7FB01900FD4D3C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				D88A2CA31B7FB02100FD4D3C /* libLeap.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43F3BE6C02CB4E6189D4AD53 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A9DB2F45E3E54541816CE99E /* Info.plist */ = {isa = PBXFileReference; explicitFileType = sourcecode.text.plist; fileEncoding = 4; lastKnownFileType = text.plist; name = Info.plist; path = build/CMakeFiles/LeapVisualizer.dir/Info.plist; sourceTree = SOURCE_ROOT; };
+		CD753A52D5A2432EA440DF07 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D153640D32784E7ABD62F0A0 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D80917051B80341D0068CB31 /* LeapVisualizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeapVisualizer.cpp; sourceTree = "<group>"; };
+		D88A2C8D1B7FA90500FD4D3C /* Leap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Leap.h; sourceTree = "<group>"; };
+		D88A2C8E1B7FA90500FD4D3C /* LeapMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeapMath.h; sourceTree = "<group>"; };
+		D88A2C8F1B7FA91F00FD4D3C /* libLeap.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libLeap.dylib; sourceTree = "<group>"; };
+		DF8088F1C529475EA7A7C512 /* LeapVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = LeapVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2A55BF19F0A94EC3B3BB23F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5397DEC69BCF48228DF87690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF8088F1C529475EA7A7C512 /* LeapVisualizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD69FC36DAC4354842DC420 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B57F84D5E920409DA3DE6181 /* LeapVisualizer */,
+				C6D07403221A43EDB4B60ED4 /* ALL_BUILD */,
+				8AA5A5E1F60841D0B1EE10D0 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		8AA5A5E1F60841D0B1EE10D0 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				E464B81187D54E99A9A41A6B /* CMake Rules */,
+				CD753A52D5A2432EA440DF07 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		939B5288A3F743458880A01B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AFE7B252532C4C918488627A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				D80917051B80341D0068CB31 /* LeapVisualizer.cpp */,
+				D88A2C931B7FA94100FD4D3C /* Header */,
+				D88A2C921B7FA93500FD4D3C /* Lib */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		B57F84D5E920409DA3DE6181 /* LeapVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7B252532C4C918488627A /* Source Files */,
+				F2FB7AB89199436490144EFF /* Resources */,
+				43F3BE6C02CB4E6189D4AD53 /* CMakeLists.txt */,
+			);
+			name = LeapVisualizer;
+			sourceTree = "<group>";
+		};
+		C6D07403221A43EDB4B60ED4 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				939B5288A3F743458880A01B /* CMake Rules */,
+				D153640D32784E7ABD62F0A0 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D88A2C921B7FA93500FD4D3C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D88A2C8F1B7FA91F00FD4D3C /* libLeap.dylib */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		D88A2C931B7FA94100FD4D3C /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D88A2C8D1B7FA90500FD4D3C /* Leap.h */,
+				D88A2C8E1B7FA90500FD4D3C /* LeapMath.h */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		E442CF43CCAE436482E61B73 = {
+			isa = PBXGroup;
+			children = (
+				6FD69FC36DAC4354842DC420 /* Sources */,
+				2A55BF19F0A94EC3B3BB23F5 /* Resources */,
+				5397DEC69BCF48228DF87690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E464B81187D54E99A9A41A6B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		F2FB7AB89199436490144EFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9DB2F45E3E54541816CE99E /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61D46A76DAC64E2F8FE9BA58 /* LeapVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11CC930A38F04165A102D293 /* Build configuration list for PBXNativeTarget "LeapVisualizer" */;
+			buildPhases = (
+				5EDFAA28814C4698A63E54B6 /* Sources */,
+				D88A2CA21B7FB01900FD4D3C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D759B108FA4447DA935B64DD /* PBXTargetDependency */,
+			);
+			name = LeapVisualizer;
+			productName = LeapVisualizer;
+			productReference = DF8088F1C529475EA7A7C512 /* LeapVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C8F3B1435904DC3965C66FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 9A2513CA036F41A48C530990 /* Build configuration list for PBXProject "LeapVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E442CF43CCAE436482E61B73;
+			projectDirPath = ..;
+			projectRoot = "";
+			targets = (
+				960BDCE8976843AF819BF75E /* ALL_BUILD */,
+				61D46A76DAC64E2F8FE9BA58 /* LeapVisualizer */,
+				E437662A45714F27896E312C /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1EAB2B4BAD4E29AA31AE2D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build -f /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		ADF2A42C3B834E83B74C2A62 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build -f /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EDFAA28814C4698A63E54B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8D693D11B80BDFB005ACF0E /* LeapVisualizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A5901C2E4E8409382494F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E437662A45714F27896E312C /* ZERO_CHECK */;
+			targetProxy = 0BB023BF35AD42D386735DF6 /* PBXContainerItemProxy */;
+		};
+		CF1EF8E7283C4F6C8AED15DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61D46A76DAC64E2F8FE9BA58 /* LeapVisualizer */;
+			targetProxy = 3896A8BA491242E3B51898D4 /* PBXContainerItemProxy */;
+		};
+		D759B108FA4447DA935B64DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E437662A45714F27896E312C /* ZERO_CHECK */;
+			targetProxy = 6C5FF60D7F3A4B159D2B91D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10FF71BC7E3F48DCB0240EFD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		1E4549005120485382CA9A79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/vtk-6.2",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeFiles/LeapVisualizer.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      ";
+				OTHER_CPLUSPLUSFLAGS = "      ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/lib/libvtkDomainsChemistry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersFlowPaths-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneric-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHyperTree-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallelImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersProgrammable-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSelection-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSMP-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersTexture-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersVerdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkverdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkGeovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkproj4-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMorphological-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStencil-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOEnSight-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExodus-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExport-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingGL2PS-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContextOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImport-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtklibxml2-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLSDyna-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMINC-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMovie-6.2.1.dylib",
+					"/usr/local/lib/libvtkoggtheora-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallelXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOPLY-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOSQL-6.2.1.dylib",
+					"/usr/local/lib/libvtksqlite-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOVideo-6.2.1.dylib",
+					"/usr/local/lib/libvtkLocalExample-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeTypeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLIC-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLOD-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolumeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkgl2ps-6.2.1.dylib",
+					"/usr/local/lib/libvtkexoIIc-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIONetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF_cxx-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5_hl-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5-6.2.1.dylib",
+					"-ldl",
+					"-lm",
+					"/usr/local/lib/libvtkParallelCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkjsoncpp-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXMLParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkexpat-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLegacy-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingOpenGL-6.2.1.dylib",
+					"-framework",
+					AGL,
+					"-framework",
+					Cocoa,
+					"/usr/local/lib/libvtkChartsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisLayout-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionWidgets-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersModeling-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkDICOMParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkmetaio-6.2.1.dylib",
+					"/usr/local/lib/libvtkpng-6.2.1.dylib",
+					"/usr/local/lib/libvtktiff-6.2.1.dylib",
+					"/usr/local/lib/libvtkjpeg-6.2.1.dylib",
+					"-lm",
+					"/usr/local/lib/libvtkInteractionStyle-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingAnnotation-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolume-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLabel-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeType-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersExtraction-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkalglib-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingFourier-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonExecutionModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonComputationalGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonDataModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMisc-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonTransforms-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonSystem-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonCore-6.2.1.dylib",
+					"/usr/local/lib/libvtksys-6.2.1.dylib",
+					"/usr/local/lib/libvtkftgl-6.2.1.dylib",
+					"/usr/local/lib/libvtkfreetype-6.2.1.dylib",
+					"/usr/local/lib/libvtkzlib-6.2.1.dylib",
+					"\"$(SRCROOT)/libLeap.dylib\"",
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					CoreServices,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LeapVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		26A044CA8FC847B59B737AA1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		2F6F3DEDF5C74C158086F33D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/vtk-6.2",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeFiles/LeapVisualizer.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/lib/libvtkDomainsChemistry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersFlowPaths-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneric-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHyperTree-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallelImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersProgrammable-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSelection-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSMP-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersTexture-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersVerdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkverdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkGeovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkproj4-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMorphological-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStencil-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOEnSight-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExodus-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExport-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingGL2PS-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContextOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImport-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtklibxml2-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLSDyna-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMINC-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMovie-6.2.1.dylib",
+					"/usr/local/lib/libvtkoggtheora-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallelXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOPLY-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOSQL-6.2.1.dylib",
+					"/usr/local/lib/libvtksqlite-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOVideo-6.2.1.dylib",
+					"/usr/local/lib/libvtkLocalExample-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeTypeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLIC-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLOD-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolumeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkgl2ps-6.2.1.dylib",
+					"/usr/local/lib/libvtkexoIIc-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIONetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF_cxx-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5_hl-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5-6.2.1.dylib",
+					"-ldl",
+					"-lm",
+					"/usr/local/lib/libvtkParallelCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkjsoncpp-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXMLParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkexpat-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLegacy-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingOpenGL-6.2.1.dylib",
+					"-framework",
+					AGL,
+					"-framework",
+					Cocoa,
+					"/usr/local/lib/libvtkChartsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisLayout-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionWidgets-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersModeling-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkDICOMParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkmetaio-6.2.1.dylib",
+					"/usr/local/lib/libvtkpng-6.2.1.dylib",
+					"/usr/local/lib/libvtktiff-6.2.1.dylib",
+					"/usr/local/lib/libvtkjpeg-6.2.1.dylib",
+					"-lm",
+					"/usr/local/lib/libvtkInteractionStyle-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingAnnotation-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolume-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLabel-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeType-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersExtraction-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkalglib-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingFourier-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonExecutionModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonComputationalGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonDataModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMisc-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonTransforms-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonSystem-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonCore-6.2.1.dylib",
+					"/usr/local/lib/libvtksys-6.2.1.dylib",
+					"/usr/local/lib/libvtkftgl-6.2.1.dylib",
+					"/usr/local/lib/libvtkfreetype-6.2.1.dylib",
+					"/usr/local/lib/libvtkzlib-6.2.1.dylib",
+					"\"$(SRCROOT)/libLeap.dylib\"",
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					CoreServices,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LeapVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		30CD422A00FC4C0686881AC7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4081B9849443465C87B0197C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/build;
+			};
+			name = Debug;
+		};
+		6579DDBB857E4B709EF89673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		78739CE8D65F438B8B146FF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		84A75DFBCF204A3883191F28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		88393C60D92E4DAB8018D296 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/vtk-6.2",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeFiles/LeapVisualizer.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "      -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "      -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/lib/libvtkDomainsChemistry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersFlowPaths-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneric-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHyperTree-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallelImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersProgrammable-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSelection-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSMP-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersTexture-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersVerdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkverdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkGeovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkproj4-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMorphological-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStencil-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOEnSight-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExodus-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExport-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingGL2PS-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContextOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImport-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtklibxml2-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLSDyna-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMINC-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMovie-6.2.1.dylib",
+					"/usr/local/lib/libvtkoggtheora-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallelXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOPLY-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOSQL-6.2.1.dylib",
+					"/usr/local/lib/libvtksqlite-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOVideo-6.2.1.dylib",
+					"/usr/local/lib/libvtkLocalExample-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeTypeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLIC-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLOD-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolumeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkgl2ps-6.2.1.dylib",
+					"/usr/local/lib/libvtkexoIIc-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIONetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF_cxx-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5_hl-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5-6.2.1.dylib",
+					"-ldl",
+					"-lm",
+					"/usr/local/lib/libvtkParallelCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkjsoncpp-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXMLParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkexpat-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLegacy-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingOpenGL-6.2.1.dylib",
+					"-framework",
+					AGL,
+					"-framework",
+					Cocoa,
+					"/usr/local/lib/libvtkChartsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisLayout-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionWidgets-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersModeling-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkDICOMParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkmetaio-6.2.1.dylib",
+					"/usr/local/lib/libvtkpng-6.2.1.dylib",
+					"/usr/local/lib/libvtktiff-6.2.1.dylib",
+					"/usr/local/lib/libvtkjpeg-6.2.1.dylib",
+					"-lm",
+					"/usr/local/lib/libvtkInteractionStyle-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingAnnotation-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolume-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLabel-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeType-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersExtraction-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkalglib-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingFourier-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonExecutionModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonComputationalGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonDataModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMisc-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonTransforms-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonSystem-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonCore-6.2.1.dylib",
+					"/usr/local/lib/libvtksys-6.2.1.dylib",
+					"/usr/local/lib/libvtkftgl-6.2.1.dylib",
+					"/usr/local/lib/libvtkfreetype-6.2.1.dylib",
+					"/usr/local/lib/libvtkzlib-6.2.1.dylib",
+					"\"$(SRCROOT)/libLeap.dylib\"",
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					CoreServices,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LeapVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		90CBB8E456B2422DA66933B0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B5D8024AACB74E72BA2F5F15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/build;
+			};
+			name = Release;
+		};
+		C82B56E419BE45E499051C0C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/vtk-6.2",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/CMakeFiles/LeapVisualizer.dir/Info.plist;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "         -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "         -DNDEBUG  ";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/usr/local/lib/libvtkDomainsChemistry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersFlowPaths-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneric-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHyperTree-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallelImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersProgrammable-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSelection-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSMP-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersTexture-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersVerdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkverdict-6.2.1.dylib",
+					"/usr/local/lib/libvtkGeovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkproj4-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingMorphological-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingStencil-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOEnSight-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExodus-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOExport-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingGL2PS-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContextOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImport-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtklibxml2-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLSDyna-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMINC-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOMovie-6.2.1.dylib",
+					"/usr/local/lib/libvtkoggtheora-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOParallelXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOPLY-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOSQL-6.2.1.dylib",
+					"/usr/local/lib/libvtksqlite-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOVideo-6.2.1.dylib",
+					"/usr/local/lib/libvtkLocalExample-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeTypeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLIC-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLOD-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolumeOpenGL-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsInfovis-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersAMR-6.2.1.dylib",
+					"/usr/local/lib/libvtkgl2ps-6.2.1.dylib",
+					"/usr/local/lib/libvtkexoIIc-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersParallel-6.2.1.dylib",
+					"/usr/local/lib/libvtkIONetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF_cxx-6.2.1.dylib",
+					"/usr/local/lib/libvtkNetCDF-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5_hl-6.2.1.dylib",
+					"/usr/local/lib/libvtkhdf5-6.2.1.dylib",
+					"-ldl",
+					"-lm",
+					"/usr/local/lib/libvtkParallelCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXML-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkjsoncpp-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOXMLParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkexpat-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOLegacy-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingOpenGL-6.2.1.dylib",
+					"-framework",
+					AGL,
+					"-framework",
+					Cocoa,
+					"/usr/local/lib/libvtkChartsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingContext2D-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersImaging-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisLayout-6.2.1.dylib",
+					"/usr/local/lib/libvtkInfovisCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkViewsCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkInteractionWidgets-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersModeling-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingHybrid-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOImage-6.2.1.dylib",
+					"/usr/local/lib/libvtkDICOMParser-6.2.1.dylib",
+					"/usr/local/lib/libvtkIOCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkmetaio-6.2.1.dylib",
+					"/usr/local/lib/libvtkpng-6.2.1.dylib",
+					"/usr/local/lib/libvtktiff-6.2.1.dylib",
+					"/usr/local/lib/libvtkjpeg-6.2.1.dylib",
+					"-lm",
+					"/usr/local/lib/libvtkInteractionStyle-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingAnnotation-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingVolume-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingLabel-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingFreeType-6.2.1.dylib",
+					"/usr/local/lib/libvtkRenderingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonColor-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersExtraction-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersStatistics-6.2.1.dylib",
+					"/usr/local/lib/libvtkalglib-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingFourier-6.2.1.dylib",
+					"/usr/local/lib/libvtkImagingCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersSources-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersGeneral-6.2.1.dylib",
+					"/usr/local/lib/libvtkFiltersCore-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonExecutionModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonComputationalGeometry-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonDataModel-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMisc-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonTransforms-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonMath-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonSystem-6.2.1.dylib",
+					"/usr/local/lib/libvtkCommonCore-6.2.1.dylib",
+					"/usr/local/lib/libvtksys-6.2.1.dylib",
+					"/usr/local/lib/libvtkftgl-6.2.1.dylib",
+					"/usr/local/lib/libvtkfreetype-6.2.1.dylib",
+					"/usr/local/lib/libvtkzlib-6.2.1.dylib",
+					"\"$(SRCROOT)/libLeap.dylib\"",
+					"-framework",
+					ApplicationServices,
+					"-framework",
+					CoreServices,
+					"-framework",
+					OpenGL,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = LeapVisualizer;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		E9CD877147174E74B0C30B0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build/build;
+			};
+			name = MinSizeRel;
+		};
+		F3539FF56DAE4652AAAF1191 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FF3082461EB443258E6E58DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"'vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)'",
+					"'vtkRenderingCore_AUTOINIT=4(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingFreeTypeOpenGL,vtkRenderingOpenGL)'",
+					"'vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)'",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "/usr/local/include/vtk-6.2";
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "  ";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/Wilbur/Documents/XCODE_Projects/LeapVisualizer/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11CC930A38F04165A102D293 /* Build configuration list for PBXNativeTarget "LeapVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4549005120485382CA9A79 /* Debug */,
+				2F6F3DEDF5C74C158086F33D /* Release */,
+				88393C60D92E4DAB8018D296 /* MinSizeRel */,
+				C82B56E419BE45E499051C0C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		907D39BB812E42FB87A9616B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A75DFBCF204A3883191F28 /* Debug */,
+				6579DDBB857E4B709EF89673 /* Release */,
+				10FF71BC7E3F48DCB0240EFD /* MinSizeRel */,
+				30CD422A00FC4C0686881AC7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9A2513CA036F41A48C530990 /* Build configuration list for PBXProject "LeapVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4081B9849443465C87B0197C /* Debug */,
+				B5D8024AACB74E72BA2F5F15 /* Release */,
+				E9CD877147174E74B0C30B0B /* MinSizeRel */,
+				26A044CA8FC847B59B737AA1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A923AFB96C194726885BEBCF /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3082461EB443258E6E58DB /* Debug */,
+				78739CE8D65F438B8B146FF1 /* Release */,
+				90CBB8E456B2422DA66933B0 /* MinSizeRel */,
+				F3539FF56DAE4652AAAF1191 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1C8F3B1435904DC3965C66FF /* Project object */;
+}
